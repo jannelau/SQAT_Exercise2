@@ -34,15 +34,15 @@ public class PlanetExplorer {
 		if (x == 'l'){
 			turnLeft();
 		}
-		if (command == "r"){
+		if (x == 'r'){
 			turnRight();
 		}
 		
-		if (command =="f"){
+		if (x == 'f'){
 			moveForward();
 		}
 		
-		if (command == "b"){
+		if (x == 'b'){
 			moveBack();
 		}
 		
