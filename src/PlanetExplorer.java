@@ -89,13 +89,14 @@ public class PlanetExplorer {
 		else if (directionvar==4){
 			direction = 'W';
 		}
-		else if (directionvar == 5){
-			directionvar =1; /*reset to North*/
-			InterpretDirection();/*try again*/
+		/*else if (directionvar == 5){
+			directionvar =1; //reset to North
+			InterpretDirection();
 		}
 		else if (directionvar == 0){
-			directionvar =4; /*reset to West*/
-			InterpretDirection();
+			directionvar =4; //reset to West
+			InterpretDirection();*/
+		/*^this won't work it can't turn counterclockwise -_-*/
 		}
 	}
 
