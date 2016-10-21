@@ -265,3 +265,4 @@ RefactoringAction 1477056763119 TestPlanetExplorer.java ADD void test_turnPlanet
 RefactoringAction 1477056770137 TestPlanetExplorer.java RENAME test_turnPlanetExplorerLeftTwice()/2=>void test_turnFullCircle() METHOD
 RefactoringAction 1477056771654 TestPlanetExplorer.java RENAME test_turnFullCircle()=>void test_turnFullCircleLeft() METHOD
 EditAction 1477056771969 TestPlanetExplorer.java 1028 4 15 4
+EditAction 1477056776513 TestPlanetExplorer.java 1028 4 15 4
