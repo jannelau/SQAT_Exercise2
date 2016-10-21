@@ -31,7 +31,7 @@ public class PlanetExplorer {
 		for(int i =0; i<command.length(); i++){
 			char x = command.charAt(i);
 		
-		if (command == "l"){
+		if (x == 'l'){
 			turnLeft();
 		}
 		if (command == "r"){
