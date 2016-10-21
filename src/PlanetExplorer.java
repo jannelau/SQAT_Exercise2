@@ -73,7 +73,7 @@ public class PlanetExplorer {
 		
 	}
 	public void moveForward(){
-		if (direction == N){
+		if (direction == 'N'){
 			
 		}
 		

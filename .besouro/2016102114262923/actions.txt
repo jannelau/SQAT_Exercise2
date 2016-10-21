@@ -289,3 +289,4 @@ UnitTestCaseAction 1477056931994 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477056931995 TestPlanetExplorer.java OK
 RefactoringAction 1477057025322 Planet.java REMOVE Planet.java CLASS
 EditAction 1477057071403 PlanetExplorer.java 2595 8 10 0
+CompilationAction 1477057071616 PlanetExplorer.java
