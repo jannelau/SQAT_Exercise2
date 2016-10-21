@@ -102,9 +102,6 @@ public class PlanetExplorer {
 			InterpretDirection();
 		}
 			
-		
-		/*^this won't work: it can't turn counterclockwise -_-*/
-		
 	}
 
 }
