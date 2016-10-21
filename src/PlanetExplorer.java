@@ -30,20 +30,20 @@ public class PlanetExplorer {
 		/*to implement: rover needs to look at string char by char in a loop*/
 		for(int i =0; i<command.length(); i++){
 			char x = command.charAt(i);
-		
-		if (x == 'l'){
-			turnLeft();
-		}
-		if (x == 'r'){
-			turnRight();
-		}
-		
-		if (x == 'f'){
-			moveForward();
-		}
-		
-		if (x == 'b'){
-			moveBack();
+
+			if (x == 'l'){
+				turnLeft();
+			}
+			if (x == 'r'){
+				turnRight();
+			}
+
+			if (x == 'f'){
+				moveForward();
+			}
+
+			if (x == 'b'){
+				moveBack();
 		}
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
