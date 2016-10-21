@@ -1,2 +1,8 @@
 FileOpenedAction 1477049189445 TestPlanetExplorer.java 174 1 1 0
 EditAction 1477050060736 PlanetExplorer.java 1274 2 1 0
+RefactoringAction 1477050293645 Planet.java ADD Planet.java CLASS
+FileOpenedAction 1477050293872 Planet.java 30 0 0 0
+RefactoringAction 1477050316482 Planet.java ADD Planet() METHOD
+RefactoringAction 1477050325044 Planet.java RENAME Planet()=>Planet(int) METHOD
+RefactoringAction 1477050335572 Planet.java RENAME Planet(int)=>Planet(int, int) METHOD
+EditAction 1477050337686 Planet.java 69 1 0 0
