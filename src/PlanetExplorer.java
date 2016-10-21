@@ -80,7 +80,7 @@ public class PlanetExplorer {
 		if (directionvar==1){
 			direction = 'N';
 		}
-		else if (directionvar==2){
+		else if (directionvar==2||directionvar==-2){
 			direction = 'E';
 		}
 		else if (directionvar==3||directionvar==-4){
