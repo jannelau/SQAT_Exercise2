@@ -9,9 +9,9 @@ public class TestPlanetExplorer {
 		fail("Not yet implemented");
 	}
 	@Test
-	public void test_createPlanetExplorerLanding() {
+	public void test_Facing_North_on_start() {
 		PlanetExplorer rover = new PlanetExplorer(500,500, "idk");
-		rover.getDirection()
+		char direction = rover.getDirection();
 		assertEquals("Should be facing North", "N", direction);
 	}
 	@Test

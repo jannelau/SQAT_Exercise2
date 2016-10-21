@@ -58,3 +58,89 @@ CompilationAction 1477052666309 TestPlanetExplorer.java
 CompilationAction 1477052666309 TestPlanetExplorer.java
 CompilationAction 1477052666310 TestPlanetExplorer.java
 EditAction 1477052681949 TestPlanetExplorer.java 487 3 2 0
+CompilationAction 1477052682130 TestPlanetExplorer.java
+CompilationAction 1477052682130 TestPlanetExplorer.java
+CompilationAction 1477052682130 TestPlanetExplorer.java
+RefactoringAction 1477052689575 TestPlanetExplorer.java RENAME test_createPlanetExplorerLanding()=>void test_Facing() METHOD
+RefactoringAction 1477052691581 TestPlanetExplorer.java RENAME test_Facing()=>void test_Facing_North() METHOD
+RefactoringAction 1477052697135 TestPlanetExplorer.java RENAME test_Facing_North()=>void test_Facing_North_() METHOD
+RefactoringAction 1477052698153 TestPlanetExplorer.java RENAME test_Facing_North_()=>void test_Facing_North_on() METHOD
+RefactoringAction 1477052700166 TestPlanetExplorer.java RENAME test_Facing_North_on()=>void test_Facing_North_on_star() METHOD
+CompilationAction 1477052700761 TestPlanetExplorer.java
+CompilationAction 1477052700762 TestPlanetExplorer.java
+CompilationAction 1477052700762 TestPlanetExplorer.java
+CompilationAction 1477052700918 TestPlanetExplorer.java
+CompilationAction 1477052700918 TestPlanetExplorer.java
+CompilationAction 1477052700918 TestPlanetExplorer.java
+RefactoringAction 1477052736313 PlanetExplorer.java ADD char getDirection() METHOD
+RefactoringAction 1477052737819 PlanetExplorer.java REMOVE getDirection() METHOD
+RefactoringAction 1477052745835 PlanetExplorer.java ADD char getDirection() METHOD
+CompilationAction 1477052769788 PlanetExplorer.java
+RefactoringAction 1477052843933 PlanetExplorer.java ADD void set FIELD
+RefactoringAction 1477052846439 PlanetExplorer.java RENAME set=>void setdirection FIELD
+RefactoringAction 1477052847445 PlanetExplorer.java RENAME setdirection=>void setdirection() METHOD
+RefactoringAction 1477052864551 PlanetExplorer.java RENAME setdirection()=>void setdirection(char) METHOD
+RefactoringAction 1477052879062 PlanetExplorer.java REMOVE setdirection(char) METHOD
+RefactoringAction 1477052879068 PlanetExplorer.java REMOVE getDirection() METHOD
+RefactoringAction 1477052882077 PlanetExplorer.java ADD char getDirection() METHOD
+RefactoringAction 1477052882077 PlanetExplorer.java ADD void setdirection(char) METHOD
+CompilationAction 1477052903505 PlanetExplorer.java
+CompilationAction 1477052903506 PlanetExplorer.java
+CompilationAction 1477052903506 TestPlanetExplorer.java
+CompilationAction 1477052903507 TestPlanetExplorer.java
+RefactoringAction 1477052909123 PlanetExplorer.java REMOVE setdirection(char) METHOD
+CompilationAction 1477052911635 PlanetExplorer.java
+CompilationAction 1477052911813 PlanetExplorer.java
+CompilationAction 1477052911813 TestPlanetExplorer.java
+CompilationAction 1477052911814 TestPlanetExplorer.java
+CompilationAction 1477052977447 PlanetExplorer.java
+CompilationAction 1477052977616 TestPlanetExplorer.java
+CompilationAction 1477052977616 TestPlanetExplorer.java
+CompilationAction 1477052996863 TestPlanetExplorer.java
+CompilationAction 1477052997026 TestPlanetExplorer.java
+CompilationAction 1477053052245 PlanetExplorer.java
+RefactoringAction 1477053059822 PlanetExplorer.java ADD void turnRight()/2 METHOD
+RefactoringAction 1477053063337 PlanetExplorer.java RENAME turnRight()/2=>void turnLeft() METHOD
+CompilationAction 1477053063920 TestPlanetExplorer.java
+RefactoringAction 1477053068356 PlanetExplorer.java ADD void turnRight()/2 METHOD
+RefactoringAction 1477053070864 PlanetExplorer.java RENAME turnRight()/2=>void t() METHOD
+RefactoringAction 1477053074387 PlanetExplorer.java RENAME t()=>void moveForward() METHOD
+RefactoringAction 1477053077899 PlanetExplorer.java ADD void moveForward()/2 METHOD
+RefactoringAction 1477053080405 PlanetExplorer.java RENAME moveForward()/2=>void moveBack() METHOD
+CompilationAction 1477053080974 TestPlanetExplorer.java
+RefactoringAction 1477053159497 PlanetExplorer.java ADD int direction/2 FIELD
+RefactoringAction 1477053161010 PlanetExplorer.java RENAME direction/2=>int directionvar FIELD
+CompilationAction 1477053171704 TestPlanetExplorer.java
+RefactoringAction 1477053325022 PlanetExplorer.java ADD char directionInterpreter FIELD
+RefactoringAction 1477053328575 PlanetExplorer.java MOVE Planet=>class PlanetExplorer null
+CompilationAction 1477053374454 TestPlanetExplorer.java
+RefactoringAction 1477053462412 PlanetExplorer.java MOVE Planet=>char directionInterpreter() null
+RefactoringAction 1477053463922 PlanetExplorer.java MOVE Planet=>class PlanetExplorer null
+RefactoringAction 1477053654809 PlanetExplorer.java RENAME Planet=>Object FIELD
+RefactoringAction 1477053671815 PlanetExplorer.java REMOVE planet FIELD
+RefactoringAction 1477053688332 PlanetExplorer.java ADD Object FIELD
+CompilationAction 1477053688940 PlanetExplorer.java
+CompilationAction 1477053688941 PlanetExplorer.java
+CompilationAction 1477053688941 PlanetExplorer.java
+CompilationAction 1477053688941 TestPlanetExplorer.java
+RefactoringAction 1477053694343 PlanetExplorer.java REMOVE planet FIELD
+CompilationAction 1477053694655 PlanetExplorer.java
+CompilationAction 1477053694656 PlanetExplorer.java
+CompilationAction 1477053694656 PlanetExplorer.java
+CompilationAction 1477053694820 PlanetExplorer.java
+CompilationAction 1477053694820 TestPlanetExplorer.java
+CompilationAction 1477053763580 PlanetExplorer.java
+CompilationAction 1477053763735 PlanetExplorer.java
+CompilationAction 1477053768827 PlanetExplorer.java
+CompilationAction 1477053768994 PlanetExplorer.java
+CompilationAction 1477053772848 PlanetExplorer.java
+CompilationAction 1477053773003 PlanetExplorer.java
+CompilationAction 1477053787866 PlanetExplorer.java
+CompilationAction 1477053788022 PlanetExplorer.java
+CompilationAction 1477053836284 TestPlanetExplorer.java
+UnitTestCaseAction 1477053845142 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477053845144 TestPlanetExplorer.java FAIL
+CompilationAction 1477053864087 PlanetExplorer.java
+UnitTestCaseAction 1477053868820 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477053868821 TestPlanetExplorer.java FAIL
+EditAction 1477053996342 PlanetExplorer.java 2382 8 10 0

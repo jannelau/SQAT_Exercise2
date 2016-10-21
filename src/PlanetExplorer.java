@@ -4,13 +4,13 @@
 // Finish time:
 
 public class PlanetExplorer {
+	char direction = 'N';
+	int directionvar = 1;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
-		char direction = 'N';
-		public char getDirection(){
-			
-			return direction;
-		}
-		/*I don't understand how the obstacles work and how the planet is included into the rover*/
+	
+
+	/*This obstacle implementation is the dumbest ever*/
 		
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -20,22 +20,23 @@ public class PlanetExplorer {
 		 
 	 */
 	}
+	//Object [ ] [ ] planet = new Object [ x ] [ y ] ;
 	
 	public String executeCommand(String command){
 		
 		if (command == "l"){
-			
+			turnLeft();
 		}
 		if (command == "r"){
-			
+			turnRight();
 		}
 		
 		if (command =="f"){
-			
+			moveForward();
 		}
 		
 		if (command == "b"){
-			
+			moveBack();
 		}
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
@@ -52,12 +53,46 @@ public class PlanetExplorer {
 	}
 
 	public void turnRight(){
+		directionvar = 1 + 1; //turns clockwise
 		
 	}
-	
-	public class Planet {
-		public Planet(int x, int y){
-			Object [ ] [ ] obstacles = new Object [ x ] [ y ] ;
-		}
+	public void turnLeft(){
+		directionvar = 1 -1; //turns counter-clockwise
+		
 	}
+	public void moveForward(){
+		
+	}
+	public void moveBack(){
+		
+	}
+	public char getDirection(){
+
+		return direction;
+	}
+	/*public void setdirection(char direction){
+		this.direction = direction;
+	}*/
+	public char directionInterpreter(){
+		if (directionvar==1){
+			direction = 'N';
+		}
+		else if (directionvar==2){
+			direction = 'N';
+		}
+		else if (directionvar==3){
+			direction = 'N';
+		}
+		else if (directionvar==4){
+			direction = 'N';
+		}
+		else if (directionvar == 5){
+			directionvar =1; /*reset to North*/
+		}
+		else if (directionvar == -1){
+			directionvar =4; /*reset to East*/
+		}
+		return direction;
+	}
+
 }
