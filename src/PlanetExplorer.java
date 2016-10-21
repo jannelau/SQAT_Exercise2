@@ -96,7 +96,7 @@ public class PlanetExplorer {
 		else if (directionvar == 0){
 			directionvar =4; //reset to West
 			InterpretDirection();*/
-		/*^this won't work it can't turn counterclockwise -_-*/
+		/*^this won't work: it can't turn counterclockwise -_-*/
 		}
 	}
 
