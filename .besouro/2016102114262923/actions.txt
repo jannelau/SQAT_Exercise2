@@ -15,3 +15,4 @@ RefactoringAction 1477050582316 TestPlanetExplorer.java ADD void test_executeCom
 RefactoringAction 1477050591828 TestPlanetExplorer.java RENAME test_executeCommand()/2=>void test_createPlanet() METHOD
 EditAction 1477050696814 TestPlanetExplorer.java 287 2 3 0
 EditAction 1477050818937 PlanetExplorer.java 1297 2 2 0
+EditAction 1477050874906 PlanetExplorer.java 1348 2 3 0
