@@ -218,3 +218,6 @@ RefactoringAction 1477055586753 TestPlanetExplorer.java ADD void test_turnPlanet
 RefactoringAction 1477055589775 TestPlanetExplorer.java RENAME test_turnPlanetExplorerLeft()/2=>void test_turnPlanetExplorerLeftTice() METHOD
 EditAction 1477055593255 TestPlanetExplorer.java 799 3 11 3
 EditAction 1477055597522 TestPlanetExplorer.java 799 3 11 3
+UnitTestCaseAction 1477055603090 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477055603090 TestPlanetExplorer.java FAIL
+EditAction 1477055607193 TestPlanetExplorer.java 800 3 11 3
