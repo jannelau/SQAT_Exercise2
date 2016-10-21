@@ -64,6 +64,7 @@ public class PlanetExplorer {
 	}
 	public void turnLeft(){
 		directionvar = 1 -1;//turns counter-clockwise
+		InterpretDirection();
 		
 		
 	}
