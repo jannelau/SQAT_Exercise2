@@ -59,11 +59,11 @@ public class PlanetExplorer {
 	}
 
 	public void turnRight(){
-		directionvar = 1 + 1; //turns clockwise
+		directionvar = directionvar + 1; //turns clockwise
 		
 	}
 	public void turnLeft(){
-		directionvar = 1 -1;//turns counter-clockwise
+		directionvar = directionvar -1;//turns counter-clockwise
 		InterpretDirection();
 		
 		
