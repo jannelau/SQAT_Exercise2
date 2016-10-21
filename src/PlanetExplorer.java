@@ -93,11 +93,11 @@ public class PlanetExplorer {
 		else if (directionvar==4||directionvar==0){
 			direction = 'W';
 		}
-		else if (directionvar == 5){
+		else if (directionvar >= 4){
 			directionvar =1; //reset to North
 			InterpretDirection();
 		}
-		else if (directionvar == 0){
+		else if (directionvar <= -2){
 			directionvar =4; //reset to West
 			InterpretDirection();
 		}
