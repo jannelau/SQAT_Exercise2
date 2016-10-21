@@ -92,7 +92,7 @@ public class PlanetExplorer {
 		else if (directionvar == 5){
 			directionvar =1; /*reset to North*/
 		}
-		else if (directionvar == -1){
+		else if (directionvar == 0){
 			directionvar =4; /*reset to East*/
 		}
 		return direction;
