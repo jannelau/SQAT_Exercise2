@@ -173,3 +173,5 @@ RefactoringAction 1477054420425 TestPlanetExplorer.java RENAME test_turnPlanetEx
 CompilationAction 1477054420957 TestPlanetExplorer.java
 RefactoringAction 1477054440462 TestPlanetExplorer.java REMOVE test_turnPlanetExplorerLeftthroughCommand() METHOD
 EditAction 1477054467319 TestPlanetExplorer.java 600 3 4 1
+CompilationAction 1477054467476 TestPlanetExplorer.java
+EditAction 1477054483440 TestPlanetExplorer.java 601 3 7 2
