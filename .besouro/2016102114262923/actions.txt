@@ -162,3 +162,4 @@ RefactoringAction 1477054145023 TestPlanetExplorer.java REMOVE rover FIELD
 RefactoringAction 1477054145024 TestPlanetExplorer.java REMOVE direction FIELD
 RefactoringAction 1477054181118 TestPlanetExplorer.java ADD char direction FIELD
 EditAction 1477054185271 TestPlanetExplorer.java 569 3 6 2
+EditAction 1477054212412 TestPlanetExplorer.java 572 3 6 2
