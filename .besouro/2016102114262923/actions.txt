@@ -168,3 +168,8 @@ EditAction 1477054265911 TestPlanetExplorer.java 572 3 6 2
 EditAction 1477054295438 TestPlanetExplorer.java 592 3 7 2
 RefactoringAction 1477054413373 TestPlanetExplorer.java ADD void test_turnPlanetExplorerLeft()/2 METHOD
 EditAction 1477054414075 TestPlanetExplorer.java 784 4 10 3
+CompilationAction 1477054414231 TestPlanetExplorer.java
+RefactoringAction 1477054420425 TestPlanetExplorer.java RENAME test_turnPlanetExplorerLeft()/2=>void test_turnPlanetExplorerLeftthroughCommand() METHOD
+CompilationAction 1477054420957 TestPlanetExplorer.java
+RefactoringAction 1477054440462 TestPlanetExplorer.java REMOVE test_turnPlanetExplorerLeftthroughCommand() METHOD
+EditAction 1477054467319 TestPlanetExplorer.java 600 3 4 1
