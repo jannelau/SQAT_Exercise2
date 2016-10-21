@@ -18,6 +18,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_turnPlanetExplorerLeft(){
 		PlanetExplorer rover = new PlanetExplorer(500,500, "idk");
-		assertEquals("Should be facing East", 'E', direction);
+		assertEquals("Should be facing West", 'W', direction);
 	}
 }
