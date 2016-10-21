@@ -80,13 +80,13 @@ public class PlanetExplorer {
 		if (directionvar==1){
 			direction = 'N';
 		}
-		else if (directionvar==2||directionvar==-2){
+		 if (directionvar==2||directionvar==-2){
 			direction = 'E';
 		}
 		else if (directionvar==3||directionvar==-4){
 			direction = 'S';
 		}
-		else if (directionvar==4){
+		else if (directionvar==4||directionvar==-3){
 			direction = 'W';
 		}
 		/*else if (directionvar == 5){
@@ -95,9 +95,11 @@ public class PlanetExplorer {
 		}
 		else if (directionvar == 0){
 			directionvar =4; //reset to West
+			}
 			InterpretDirection();*/
+		
 		/*^this won't work: it can't turn counterclockwise -_-*/
-		}
+		
 	}
 
 }
