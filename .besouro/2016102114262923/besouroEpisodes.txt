@@ -2,3 +2,12 @@
 1477056787287 test-last 1 70 false
 1477056787288 test-last 1 70 false
 1477056787289 test-last 1 70 false
+1477056818442 refactoring 3 16 true
+1477056818443 refactoring 1B 16 true
+1477056818444 refactoring 2B 16 true
+1477056818445 refactoring 3 16 true
+1477056818446 refactoring 3 16 true
+1477056818447 refactoring 3 16 true
+1477056818448 refactoring 2B 16 true
+1477056818449 refactoring 1B 16 true
+1477056818450 regression 1 16 true
