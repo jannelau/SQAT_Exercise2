@@ -28,6 +28,7 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		command.toLowerCase();
+		/*to implement: rover needs to look at string char by char*/
 		
 		if (command == "l"){
 			turnLeft();
