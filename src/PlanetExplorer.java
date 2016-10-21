@@ -6,6 +6,10 @@
 public class PlanetExplorer {
 	char direction = 'N';
 	int directionvar = 1;
+	public char getDirection(){
+
+		return direction;
+	}
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	
@@ -66,10 +70,7 @@ public class PlanetExplorer {
 	public void moveBack(){
 		
 	}
-	public char getDirection(){
 
-		return direction;
-	}
 
 	public char directionInterpreter(){
 		if (directionvar==1){
