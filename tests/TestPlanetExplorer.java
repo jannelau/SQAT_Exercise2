@@ -9,7 +9,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer rover = new PlanetExplorer(500,500, "idk");
 		direction = rover.getDirection();
 		assertEquals("Should be facing North", 'N', direction);
-	}
+	}//a
 	@Test
 	public void test_turnPlanetExplorerLeft(){
 		PlanetExplorer rover = new PlanetExplorer(500,500, "idk");
