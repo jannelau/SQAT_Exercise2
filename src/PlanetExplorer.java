@@ -75,7 +75,7 @@ public class PlanetExplorer {
 	}
 
 
-	public char directionInterpreter(){
+	public char InterpretDirection(){
 		if (directionvar==1){
 			direction = 'N';
 		}
