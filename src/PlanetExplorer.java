@@ -60,7 +60,7 @@ public class PlanetExplorer {
 
 	public char turnRight(){
 		directionvar = directionvar + 1; //turns clockwise
-		return direction,
+		return direction;
 		
 	}
 	public char turnLeft(){
@@ -78,7 +78,7 @@ public class PlanetExplorer {
 	}
 
 
-	public char InterpretDirection(){
+	public void InterpretDirection(){
 		if (directionvar==1){
 			direction = 'N';
 		}
@@ -97,7 +97,6 @@ public class PlanetExplorer {
 		else if (directionvar == 0){
 			directionvar =4; /*reset to East*/
 		}
-		return direction;
 	}
 
 }
