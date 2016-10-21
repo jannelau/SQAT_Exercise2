@@ -151,3 +151,14 @@ EditAction 1477054029091 PlanetExplorer.java 2304 8 10 0
 UnitTestCaseAction 1477054044550 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477054044550 TestPlanetExplorer.java FAIL
 EditAction 1477054073361 TestPlanetExplorer.java 499 3 5 1
+UnitTestCaseAction 1477054076117 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477054076118 TestPlanetExplorer.java FAIL
+RefactoringAction 1477054114349 TestPlanetExplorer.java ADD char direction FIELD
+CompilationAction 1477054114812 TestPlanetExplorer.java
+RefactoringAction 1477054118388 TestPlanetExplorer.java REMOVE direction FIELD
+RefactoringAction 1477054126943 TestPlanetExplorer.java ADD PlanetExplorer rover FIELD
+RefactoringAction 1477054126944 TestPlanetExplorer.java ADD char direction FIELD
+RefactoringAction 1477054145023 TestPlanetExplorer.java REMOVE rover FIELD
+RefactoringAction 1477054145024 TestPlanetExplorer.java REMOVE direction FIELD
+RefactoringAction 1477054181118 TestPlanetExplorer.java ADD char direction FIELD
+EditAction 1477054185271 TestPlanetExplorer.java 569 3 6 2
