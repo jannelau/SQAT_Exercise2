@@ -29,6 +29,7 @@ public class PlanetExplorer {
 		command.toLowerCase();
 		/*to implement: rover needs to look at string char by char in a loop*/
 		for(int i =0; i<command.length(); i++){
+			
 			char x = command.charAt(i);
 
 			if (x == 'l'){
