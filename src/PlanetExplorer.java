@@ -28,7 +28,8 @@ public class PlanetExplorer {
 	public String executeCommand(String command){
 		command.toLowerCase();
 		/*to implement: rover needs to look at string char by char in a loop*/
-		for(i =0; i<command.length(); i++){
+		for(int i =0; i<command.length(); i++){
+			char x = command.charAt(i);
 		
 		if (command == "l"){
 			turnLeft();
