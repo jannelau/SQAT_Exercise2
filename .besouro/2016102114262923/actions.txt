@@ -26,3 +26,35 @@ RefactoringAction 1477051350128 TestPlanetExplorer.java RENAME test_createPlanet
 RefactoringAction 1477051352648 TestPlanetExplorer.java RENAME test_createPlanetExplorerdefineP()=>void test_createPlanetExplorerdefinePlanetSize() METHOD
 CompilationAction 1477051367694 TestPlanetExplorer.java
 EditAction 1477051436270 PlanetExplorer.java 1418 3 3 0
+CompilationAction 1477051436490 TestPlanetExplorer.java
+CompilationAction 1477051918929 TestPlanetExplorer.java
+RefactoringAction 1477051939195 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1477051943203 TestPlanetExplorer.java RENAME test_=>void test_turnRover FIELD
+RefactoringAction 1477051950718 TestPlanetExplorer.java RENAME test_turnRover=>void test_turnPlanetExplorer FIELD
+RefactoringAction 1477051979891 TestPlanetExplorer.java RENAME test_createPlanetExplorerdefinePlanetSize()=>void test_createPlanetExplorerland() METHOD
+RefactoringAction 1477051983408 TestPlanetExplorer.java RENAME test_createPlanetExplorerland()=>void test_createPlanetExplorerLand() METHOD
+RefactoringAction 1477052268571 PlanetExplorer.java ADD char get FIELD
+RefactoringAction 1477052273079 PlanetExplorer.java RENAME get=>char getDirection FIELD
+RefactoringAction 1477052281131 PlanetExplorer.java MOVE Planet=>class PlanetExplorer null
+CompilationAction 1477052294193 PlanetExplorer.java
+RefactoringAction 1477052414775 PlanetExplorer.java MOVE Planet=>char getDirection() null
+RefactoringAction 1477052424328 PlanetExplorer.java RENAME getDirection()=>char getDirection(char) METHOD
+CompilationAction 1477052426002 PlanetExplorer.java
+RefactoringAction 1477052472379 PlanetExplorer.java ADD void turnRight FIELD
+RefactoringAction 1477052522444 PlanetExplorer.java RENAME getDirection(char)=>char getDirection() METHOD
+CompilationAction 1477052523568 PlanetExplorer.java
+CompilationAction 1477052535234 PlanetExplorer.java
+CompilationAction 1477052535394 PlanetExplorer.java
+CompilationAction 1477052535395 PlanetExplorer.java
+RefactoringAction 1477052567582 PlanetExplorer.java REMOVE getDirection() METHOD
+CompilationAction 1477052600702 PlanetExplorer.java
+CompilationAction 1477052600703 PlanetExplorer.java
+CompilationAction 1477052600703 PlanetExplorer.java
+CompilationAction 1477052600704 PlanetExplorer.java
+CompilationAction 1477052600704 PlanetExplorer.java
+CompilationAction 1477052629771 TestPlanetExplorer.java
+CompilationAction 1477052629772 TestPlanetExplorer.java
+CompilationAction 1477052666309 TestPlanetExplorer.java
+CompilationAction 1477052666309 TestPlanetExplorer.java
+CompilationAction 1477052666310 TestPlanetExplorer.java
+EditAction 1477052681949 TestPlanetExplorer.java 487 3 2 0

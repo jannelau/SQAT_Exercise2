@@ -9,8 +9,13 @@ public class TestPlanetExplorer {
 		fail("Not yet implemented");
 	}
 	@Test
-	public void test_createPlanetExplorerdefinePlanetSize() {
-		PlanetExplorer rover = new PlanetExplorer(500,500);
-		fail("Not yet implemented");
+	public void test_createPlanetExplorerLanding() {
+		PlanetExplorer rover = new PlanetExplorer(500,500, "idk");
+		rover.getDirection()
+		assertEquals("Should be facing North", "N", direction);
+	}
+	@Test
+	public void test_turnPlanetExplorer(){
+		PlanetExplorer rover = new PlanetExplorer(500,500, "idk");
 	}
 }

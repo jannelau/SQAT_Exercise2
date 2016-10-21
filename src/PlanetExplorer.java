@@ -6,6 +6,11 @@
 public class PlanetExplorer {
 	public PlanetExplorer(int x, int y, String obstacles){
 		char direction = 'N';
+		public char getDirection(){
+			
+			return direction;
+		}
+		/*I don't understand how the obstacles work and how the planet is included into the rover*/
 		
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -18,6 +23,21 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		
+		if (command == "l"){
+			
+		}
+		if (command == "r"){
+			
+		}
+		
+		if (command =="f"){
+			
+		}
+		
+		if (command == "b"){
+			
+		}
+		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -29,6 +49,10 @@ public class PlanetExplorer {
 		 */
 		
 		return null;
+	}
+
+	public void turnRight(){
+		
 	}
 	
 	public class Planet {
