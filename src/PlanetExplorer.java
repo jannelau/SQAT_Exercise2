@@ -63,7 +63,8 @@ public class PlanetExplorer {
 		
 	}
 	public void turnLeft(){
-		directionvar = 1 -1; //turns counter-clockwise
+		directionvar = 1 -1;//turns counter-clockwise
+		
 		
 	}
 	public void moveForward(){
