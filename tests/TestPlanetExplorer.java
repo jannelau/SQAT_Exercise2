@@ -24,7 +24,7 @@ public class TestPlanetExplorer {
 		assertEquals("Should be facing South", 'S', direction);
 	}	public void test_turnFullCircleLeft(){
 		PlanetExplorer rover = new PlanetExplorer(500,500, "idk");
-		rover.executeCommand("ll");
+		rover.executeCommand("llll");
 		direction = rover.getDirection();
 		assertEquals("Should be facing South", 'N', direction);
 	}
