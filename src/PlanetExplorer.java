@@ -58,15 +58,13 @@ public class PlanetExplorer {
 		return null;
 	}
 
-	public char turnRight(){
+	public void turnRight(){
 		directionvar = directionvar + 1; //turns clockwise
-		return direction;
 		
 	}
-	public char turnLeft(){
+	public void turnLeft(){
 		directionvar = directionvar -1;//turns counter-clockwise
 		InterpretDirection();
-		return direction;
 		
 		
 	}
