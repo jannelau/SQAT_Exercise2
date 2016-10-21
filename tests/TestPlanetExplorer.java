@@ -26,6 +26,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer rover = new PlanetExplorer(500,500, "idk");
 		rover.executeCommand("llll");
 		direction = rover.getDirection();
-		assertEquals("Should be facing South", 'N', direction);
+		assertEquals("Should be facing South", 'W', direction);
 	}
 }
