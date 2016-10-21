@@ -33,7 +33,7 @@ public class PlanetExplorer {
 	
 	public class Planet {
 		public Planet(int x, int y){
-			Object [ ] [ ] PlanetExplorer = new Object [ x ] [ y ] ;
+			Object [ ] [ ] obstacles = new Object [ x ] [ y ] ;
 		}
 	}
 }

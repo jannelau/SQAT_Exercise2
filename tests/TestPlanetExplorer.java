@@ -9,8 +9,8 @@ public class TestPlanetExplorer {
 		fail("Not yet implemented");
 	}
 	@Test
-	public void test_createPlanet() {
-		Planet mars = new Planet(500,500);
+	public void test_createPlanetExplorerdefinePlanetSize() {
+		PlanetExplorer rover = new PlanetExplorer(500,500);
 		fail("Not yet implemented");
 	}
 }

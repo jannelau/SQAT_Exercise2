@@ -20,3 +20,9 @@ EditAction 1477051133095 PlanetExplorer.java 1418 3 3 0
 CompilationAction 1477051133338 PlanetExplorer.java
 CompilationAction 1477051142364 PlanetExplorer.java
 EditAction 1477051307546 PlanetExplorer.java 1423 3 3 0
+RefactoringAction 1477051346071 TestPlanetExplorer.java RENAME test_createPlanet()=>void test_createPlanetExplorer() METHOD
+RefactoringAction 1477051349093 TestPlanetExplorer.java RENAME test_createPlanetExplorer()=>void test_createPlanetExplorerdefine() METHOD
+RefactoringAction 1477051350128 TestPlanetExplorer.java RENAME test_createPlanetExplorerdefine()=>void test_createPlanetExplorerdefineP() METHOD
+RefactoringAction 1477051352648 TestPlanetExplorer.java RENAME test_createPlanetExplorerdefineP()=>void test_createPlanetExplorerdefinePlanetSize() METHOD
+CompilationAction 1477051367694 TestPlanetExplorer.java
+EditAction 1477051436270 PlanetExplorer.java 1418 3 3 0
