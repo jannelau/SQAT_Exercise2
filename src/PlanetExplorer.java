@@ -77,13 +77,13 @@ public class PlanetExplorer {
 			direction = 'N';
 		}
 		else if (directionvar==2){
-			direction = 'N';
+			direction = 'E';
 		}
 		else if (directionvar==3){
-			direction = 'N';
+			direction = 'S';
 		}
 		else if (directionvar==4){
-			direction = 'N';
+			direction = 'W';
 		}
 		else if (directionvar == 5){
 			directionvar =1; /*reset to North*/
