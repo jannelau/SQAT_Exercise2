@@ -148,3 +148,6 @@ EditAction 1477054019408 PlanetExplorer.java 2303 8 10 0
 RefactoringAction 1477054023028 PlanetExplorer.java REMOVE getDirection() METHOD
 RefactoringAction 1477054028538 PlanetExplorer.java ADD char getDirection() METHOD
 EditAction 1477054029091 PlanetExplorer.java 2304 8 10 0
+UnitTestCaseAction 1477054044550 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477054044550 TestPlanetExplorer.java FAIL
+EditAction 1477054073361 TestPlanetExplorer.java 499 3 5 1
