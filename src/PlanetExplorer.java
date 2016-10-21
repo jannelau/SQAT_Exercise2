@@ -86,7 +86,7 @@ public class PlanetExplorer {
 		else if (directionvar==3||directionvar==-4){
 			direction = 'S';
 		}
-		else if (directionvar==4||directionvar==-1){
+		else if (directionvar==4||directionvar==0){
 			direction = 'W';
 		}
 		/*else if (directionvar == 5){
