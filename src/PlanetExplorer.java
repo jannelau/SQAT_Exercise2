@@ -93,7 +93,7 @@ public class PlanetExplorer {
 			directionvar =1; /*reset to North*/
 		}
 		else if (directionvar == 0){
-			directionvar =4; /*reset to East*/
+			directionvar =4; /*reset to West*/
 		}
 	}
 
