@@ -27,6 +27,7 @@ public class PlanetExplorer {
 	//Object [ ] [ ] planet = new Object [ x ] [ y ] ;
 	
 	public String executeCommand(String command){
+		command.toLowerCase();
 		
 		if (command == "l"){
 			turnLeft();
