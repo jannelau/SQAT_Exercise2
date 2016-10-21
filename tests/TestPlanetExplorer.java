@@ -16,13 +16,15 @@ public class TestPlanetExplorer {
 		rover.executeCommand("l");
 		direction = rover.getDirection();
 		assertEquals("Should be facing West", 'W', direction);
-	}	@Test
+	}	
+	@Test
 	public void test_turnPlanetExplorerLeftTwice(){
 		PlanetExplorer rover = new PlanetExplorer(500,500, "idk");
 		rover.executeCommand("ll");
 		direction = rover.getDirection();
 		assertEquals("Should be facing South", 'S', direction);
-	}	@Test
+	}	
+	@Test
 	public void test_turnFullCircleLeftplus1(){
 		PlanetExplorer rover = new PlanetExplorer(500,500, "idk");
 		rover.executeCommand("llll");
