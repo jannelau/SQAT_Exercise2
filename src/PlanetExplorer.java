@@ -70,9 +70,7 @@ public class PlanetExplorer {
 
 		return direction;
 	}
-	/*public void setdirection(char direction){
-		this.direction = direction;
-	}*/
+
 	public char directionInterpreter(){
 		if (directionvar==1){
 			direction = 'N';
