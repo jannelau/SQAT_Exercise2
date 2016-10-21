@@ -16,5 +16,11 @@ public class TestPlanetExplorer {
 		rover.executeCommand("l");
 		direction = rover.getDirection();
 		assertEquals("Should be facing West", 'W', direction);
+	}	@Test
+	public void test_turnPlanetExplorerLeftTice(){
+		PlanetExplorer rover = new PlanetExplorer(500,500, "idk");
+		rover.executeCommand("ll");
+		direction = rover.getDirection();
+		assertEquals("Should be facing West", 'W', direction);
 	}
 }
